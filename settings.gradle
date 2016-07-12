@@ -1,0 +1,5 @@
+include ':annotationlib', ':processor'
+
+if (file('settings-local.gradle').exists()) {
+    apply from: 'settings-local.gradle'
+}
